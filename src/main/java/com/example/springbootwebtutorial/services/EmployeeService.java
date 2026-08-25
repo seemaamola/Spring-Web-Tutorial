@@ -1,6 +1,5 @@
 package com.example.springbootwebtutorial.services;
 
-import com.example.springbootwebtutorial.configs.ModalMapperConfig;
 import com.example.springbootwebtutorial.dto.EmployeeDTO;
 import com.example.springbootwebtutorial.entities.EmployeeEntity;
 import com.example.springbootwebtutorial.repositories.EmployeeRepository;

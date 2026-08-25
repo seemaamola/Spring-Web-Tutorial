@@ -1,12 +1,10 @@
 package com.example.springbootwebtutorial.controllers;
 
 import com.example.springbootwebtutorial.dto.EmployeeDTO;
-import com.example.springbootwebtutorial.entities.EmployeeEntity;
-import com.example.springbootwebtutorial.repositories.EmployeeRepository;
 import com.example.springbootwebtutorial.services.EmployeeService;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
+
 import java.util.List;
 
 @RestController/// ---- Mapping defined inside this controller are rest in nature
