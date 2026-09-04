@@ -1,9 +1,7 @@
 package com.example.springbootwebtutorial.entities;
 
 import jakarta.persistence.*;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
@@ -11,6 +9,8 @@ import java.time.LocalDate;
 @Table(name = "employee")   //  give table a name and constraints
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode   // not recommended
 public class EmployeeEntity {
 
@@ -22,6 +22,8 @@ public class EmployeeEntity {
     private Integer age;
     private LocalDate dateOfJoining;
     private Boolean isActive;
-    // these fields inside this entity will convert to coloumns inside the table
+    private String role;
+    private Double salary;
+    // these fields inside this entity will convert to columns inside the table
 
 }
